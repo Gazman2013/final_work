@@ -1,0 +1,59 @@
+controle
+adduser ansible
+su ansible
+ssh-keygen
+cd /home/ansible/.ssh
+/etc/hosts 
+ip dns
+
+
+Slave
+adduser ansible
+ssh-keygen
+root echo 'ansible ALL=(ALL:ALL) NOPASSWD:ALL' > /etc/sudoers.d/ansible
+nano /etc/ssh/sshd_config
+#PasswordAuthentication yes
+systemctl restart sshd
+
+
+controle 
+ansible 
+ssh-copy-id user@dns 
+enter password ansible
+
+slave
+nano /etc/ssh/sshd_config
+#PasswordAuthentication no
+systemctl restart sshd
+
+controle 
+ssh user@dns 
+
+install ansible
+
+apt update
+apt install ansible
+nano /etc/ansible/hosts
+[jenkins]
+jenkins
+
+
+[servers:children]
+jenkins
+
+su ansible
+cd ~/
+ansible -i /etc/ansible/hosts  all --list-host
+wget https://raw.githubusercontent.com/ansible/ansible/stable-2.9/contrib/inventory/openstack_inventory.py
+
+su-
+nano /etc/ansible/ansible.cfg
+
+find and del comment
+[privilege_escalation]
+become=True
+become_method=sudo
+become_user=root
+become_ask_pass=False
+remote_user = ansible
+host_key_checking = False
