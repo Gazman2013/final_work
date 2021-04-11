@@ -1,7 +1,11 @@
 ---
  - hosts: jenkins
-  
+
    tasks:
+    - name: install jdk
+      apt: name=default-jdk update_cache=yes
+      become: yes
+
     - name: ensure the jenkins apt repository key is installed
       apt_key: url=https://pkg.jenkins.io/debian-stable/jenkins.io.key state=present
       become: yes
