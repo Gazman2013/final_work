@@ -4,3 +4,4 @@
 3. Zabbix https://blog.zabbix.com/installing-the-zabbix-server-with-ansible/13317/
 4. Установка плагина Docker Compose Build Step
 5. visudo ansible ALL=(ALL:ALL) NOPASSWD:ALL
+6. Установка на ansible-ctrl docker 
