@@ -1,7 +1,7 @@
 # final_work
-1. instance ansible-ctrl для использования blaybook-ов
-2. https://github.com/Gazman2013/docker-compose-final-work исходное приложение
-3. Zabbix https://blog.zabbix.com/installing-the-zabbix-server-with-ansible/13317/
+1. Устанока 2-х инстанцев в GCP. instance ansible-ctrl для использования blaybook-ов, zabbix-сервера. docker. Jenkins для сервера jenkins, docker.  
+2. Сбока приложения выполняется в docker-compose. https://github.com/Gazman2013/docker-compose-final-work исходное приложение. Там же находится Jenkinsfile
+3. 
 4. Установка плагина Docker Compose Build Step
 5. visudo ansible ALL=(ALL:ALL) NOPASSWD:ALL
 6. Установка на ansible-ctrl docker 
