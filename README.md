@@ -20,7 +20,8 @@ docker run --name zabbix-appliance -t \
 1. https://habr.com/ru/post/538840/
 2. https://habr.com/ru/post/538974/
 3. Установка метрик для Docker
-4. ![Uploading image.png…]()
+4. ![image](https://user-images.githubusercontent.com/78871778/114916605-a8582d00-9e2d-11eb-9fbc-ac52c1234cfa.png)
+5. 
 
 
 
