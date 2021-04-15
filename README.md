@@ -51,7 +51,8 @@ docker run --name zabbix-appliance -t \
 
 4. ![image](https://user-images.githubusercontent.com/78871778/114750572-cd309f80-9d5c-11eb-871a-9d0a858c1d83.png)
 
-5. ![image](https://user-images.githubusercontent.com/78871778/114921375-2c60e380-9e33-11eb-823f-9b927c37c089.png)
+5. При изменениях на git, по расписанию запускается build приложения
+![image](https://user-images.githubusercontent.com/78871778/114921375-2c60e380-9e33-11eb-823f-9b927c37c089.png)
 
 6. ![image](https://user-images.githubusercontent.com/78871778/114921420-371b7880-9e33-11eb-89da-c91ba1ab925b.png)
 
