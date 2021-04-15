@@ -26,7 +26,7 @@ docker run --name zabbix-appliance -t \
 5. 
 
 ## Git
-1. git config --global user.name ”Ivan Ivanov”
+1. git config --global user.name ”Maxim Rodionov”
 2. git config --global user.email rodionov.gazman2013@gmail.com
 3. git clone https://github.com/Gazman2013/final_work
 4. git pull
