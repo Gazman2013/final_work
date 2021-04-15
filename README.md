@@ -12,7 +12,9 @@ docker run --name zabbix-appliance -t \
       -p 80:80 \
       -d zabbix/zabbix-appliance:latest
 2. На zabbix-agent устаналиваем server address сервера, listenport, hostname. На сервере добавляем его в группу и templates. 
+
 3. ![image](https://user-images.githubusercontent.com/78871778/114745101-036b2080-9d57-11eb-99b7-75930d03a9c3.png)
+
 4. ![image](https://user-images.githubusercontent.com/78871778/114746381-5b565700-9d58-11eb-9621-791c81f213c8.png)
 
 ## ELK http://104.198.211.198:5601/
