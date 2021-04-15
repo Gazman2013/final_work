@@ -23,6 +23,10 @@ docker run --name zabbix-appliance -t \
 4. ![image](https://user-images.githubusercontent.com/78871778/114916605-a8582d00-9e2d-11eb-9fbc-ac52c1234cfa.png)
 5. 
 
+## Git
+1. git config --global user.name ”Ivan Ivanov”
+2. git config --global user.email rodionov.gazman2013@gmail.com
+3. 
 
 
 ## Jenkins 
