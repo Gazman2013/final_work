@@ -33,4 +33,10 @@ docker run --name zabbix-appliance -t \
 1. http://35.232.202.39:8080/
 2. ![image](https://user-images.githubusercontent.com/78871778/114750666-e6395080-9d5c-11eb-8e82-3c8c146aa40b.png)
 3. ![image](https://user-images.githubusercontent.com/78871778/114750572-cd309f80-9d5c-11eb-871a-9d0a858c1d83.png)
-4. 
+4. ![image](https://user-images.githubusercontent.com/78871778/114921375-2c60e380-9e33-11eb-823f-9b927c37c089.png)
+5. ![image](https://user-images.githubusercontent.com/78871778/114921420-371b7880-9e33-11eb-89da-c91ba1ab925b.png)
+6. ![image](https://user-images.githubusercontent.com/78871778/114921488-439fd100-9e33-11eb-80be-816a342cebd5.png)
+
+
+
+5. 
