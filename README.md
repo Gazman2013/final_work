@@ -15,6 +15,11 @@ docker run --name zabbix-appliance -t \
 3. ![image](https://user-images.githubusercontent.com/78871778/114745101-036b2080-9d57-11eb-99b7-75930d03a9c3.png)
 4. ![image](https://user-images.githubusercontent.com/78871778/114746381-5b565700-9d58-11eb-9621-791c81f213c8.png)
 
+##ELK
+Установка была вручную по статьям
+1. https://habr.com/ru/post/538840/
+2. https://habr.com/ru/post/538974/
+
 ## Jenkins 
 1. http://35.232.202.39:8080/
 2. ![image](https://user-images.githubusercontent.com/78871778/114750666-e6395080-9d5c-11eb-8e82-3c8c146aa40b.png)
