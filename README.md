@@ -1,9 +1,8 @@
 # final_work
 ## Подготовка 
-1. Устанока 3-х инстанцев в GCP. 
+1. Устанока 3-х инстанцев в GCP. instance ansible-ctrl для использования blaybook-ов, zabbix-сервера. docker. Jenkins для сервера jenkins, docker. Kibana для просмотра метрик. 
 ![image](https://user-images.githubusercontent.com/78871778/114931595-1c4f0100-9e3f-11eb-8600-668a66c1d939.png)
-
-instance ansible-ctrl для использования blaybook-ов, zabbix-сервера. docker. Jenkins для сервера jenkins, docker. Kibana для просмотра метрик.  
+ 
 3. Сбока приложения выполняется в docker-compose. https://github.com/Gazman2013/docker-compose-final-work исходное приложение. Там же находится Jenkinsfile
 4. Установка и настройка ansible в https://github.com/Gazman2013/final_work/tree/main/Ansible. С помощью playbook установлен docker, jenkins, zabbix-agent.
 5. ![image](https://user-images.githubusercontent.com/78871778/114749849-09afcb80-9d5c-11eb-92d9-794f6c872261.png)
