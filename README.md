@@ -1,9 +1,12 @@
 # final_work
 ## Подготовка 
-1. Устанока 2-х инстанцев в GCP. instance ansible-ctrl для использования blaybook-ов, zabbix-сервера. docker. Jenkins для сервера jenkins, docker.  
-2. Сбока приложения выполняется в docker-compose. https://github.com/Gazman2013/docker-compose-final-work исходное приложение. Там же находится Jenkinsfile
-3. Установка и настройка ansible в https://github.com/Gazman2013/final_work/tree/main/Ansible. С помощью playbook установлен docker, jenkins, zabbix-agent.
-4. ![image](https://user-images.githubusercontent.com/78871778/114749849-09afcb80-9d5c-11eb-92d9-794f6c872261.png)
+1. Устанока 3-х инстанцев в GCP. 
+![image](https://user-images.githubusercontent.com/78871778/114931595-1c4f0100-9e3f-11eb-8600-668a66c1d939.png)
+
+instance ansible-ctrl для использования blaybook-ов, zabbix-сервера. docker. Jenkins для сервера jenkins, docker. Kibana для просмотра метрик.  
+3. Сбока приложения выполняется в docker-compose. https://github.com/Gazman2013/docker-compose-final-work исходное приложение. Там же находится Jenkinsfile
+4. Установка и настройка ansible в https://github.com/Gazman2013/final_work/tree/main/Ansible. С помощью playbook установлен docker, jenkins, zabbix-agent.
+5. ![image](https://user-images.githubusercontent.com/78871778/114749849-09afcb80-9d5c-11eb-92d9-794f6c872261.png)
 
 ## Zabbix server http://35.184.58.235/
 1. Установка Zabbix на ansible-ctrl 
@@ -57,4 +60,8 @@ docker run --name zabbix-appliance -t \
 6. ![image](https://user-images.githubusercontent.com/78871778/114921420-371b7880-9e33-11eb-89da-c91ba1ab925b.png)
 
 7. ![image](https://user-images.githubusercontent.com/78871778/114921488-439fd100-9e33-11eb-80be-816a342cebd5.png)
+
+8. Изменения номера порта в docker ps
+![image](https://user-images.githubusercontent.com/78871778/114931471-f6c1f780-9e3e-11eb-8e98-b9249bdfd561.png)
+
  
