@@ -1,3 +1,4 @@
+Install ansible to control node ans slave nades.
 controle
 adduser ansible
 su ansible
