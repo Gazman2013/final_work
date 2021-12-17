@@ -12,7 +12,7 @@ ip dns
 Slave
 adduser ansible
 ssh-keygen
-root echo 'ansible ALL=(ALL:ALL) NOPASSWD:ALL' > /etc/sudoers.d/ansible
+root echo 'ansible ALL=(ALL:ALL) NOPASSWD:ALL' >> /etc/sudoers.d/ansible
 nano /etc/ssh/sshd_config
 #PasswordAuthentication yes
 systemctl restart sshd
